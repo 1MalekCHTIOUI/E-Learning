@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid " style="height: 100%;margin: 0;">
+        <h1 class="d-flex align-items-center gap-2">
+          <i class="bi bi-book-half" style="color: #05bac9;"> </i>
+          <a
+            class="navbar-brand fs-4"
+            href="#"
+            style="color: #05bac9;letter-spacing: 1px;"
+          >
+            eLEARNING</a
+          >
+        </h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end "
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <button
+            class="d-flex align-items-center justify-content-between flex-row gap-3 text-white border-0 px-5"
+            id="btnJoinUs"
+          >
+            <p style="margin: 0;">Join Us</p>
+            <i class="bi bi-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="mask"></div>
+            <img
+              src="./img/carousel-1.jpg"
+              class="d-block w-100 carousel-img"
+              alt="..."
+            />
+            <div class="carousel-content">
+              <p class="title">Best online courses</p>
+              <h1 class="slogan">The Best Online Learning Plateform</h1>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                natus aliquid obcaecati cumque temporibus doloremque laborum
+                harum beatae dignissimos quisquam?
+              </p>
+              <div class="carousel-buttons d-flex gap-3">
+                <button
+                  class="btn btn-primary p-3 border-0 rounded-0"
+                  style="background-color: #05bac9;"
+                >
+                  Read more
+                </button>
+                <button class="btn btn-light p-3 border-0 rounded-0">
+                  Join now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="mask"></div>
+            <img
+              src="./img/carousel-2.jpg"
+              class="d-block w-100 carousel-img"
+              alt="..."
+            />
+            <div class="carousel-content">
+              <p class="title">Best online courses</p>
+              <h1 class="slogan">The Best Online Learning Plateform</h1>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                natus aliquid obcaecati cumque temporibus doloremque laborum
+                harum beatae dignissimos quisquam?
+              </p>
+              <div class="carousel-buttons d-flex gap-3">
+                <button
+                  class="btn btn-primary p-3 border-0 rounded-0"
+                  style="background-color: #05bac9;"
+                >
+                  Read more
+                </button>
+                <button class="btn btn-light p-3 border-0 rounded-0">
+                  Join now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="mt-5">
+      <div class="container ">
+        <div class="row">
+          <div class="col-3">
+            <div
+              class="card p-4 gap-2 d-flex flex-column align-items-center justify-content-center"
+            >
+              <h1 class="cardHeader">
+                <i class="bi bi-mortarboard-fill icon"></i>
+              </h1>
+
+              <h3 class="text-center cardTitle">Skilled Instructors</h3>
+
+              <p class="text-center cardDescription">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.Harum,
+                nulla!
+              </p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div
+              class="card p-4 gap-2 d-flex flex-column align-items-center justify-content-center"
+            >
+              <h1 class="cardHeader"><i class="bi bi-globe icon"></i></h1>
+
+              <h3 class="text-center cardTitle">Online classes</h3>
+
+              <p class="text-center cardDescription">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+                nam.
+              </p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div
+              class="card p-4 gap-2 d-flex flex-column align-items-center justify-content-center"
+            >
+              <h1 class="cardHeader">
+                <i class="bi bi-house-door icon"></i>
+              </h1>
+
+              <h3 class="cardTitle">Home Projects</h3>
+              <p class="text-center cardDescription">
+                Lo class="cardDescription"rem, ipsum dolor sit amet consectetur
+                adipisicing elit. Architecto, dicta.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div
+              class="card p-4 gap-2 d-flex flex-column align-items-center justify-content-center"
+            >
+              <h1 class="cardHeader">
+                <i class="bi bi-book icon"></i>
+              </h1>
+
+              <h3 class="cardTitle">Book Library</h3>
+
+              <p class="text-center cardDescription">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+                maxime!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5">
+      <div class="container">
+        <div class="row justify-content-center g-5">
+          <div class="col">
+            <img
+              src="img/about.jpg"
+              class="img-fluid"
+              style="height: 450px; object-fit: cover; width: 100%;"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <div
+              class="d-flex flex-column align-items-start justify-content-between h-100 aboutContent"
+            >
+              <div class="d-flex flex-row">
+                <span style="font-weight: 600;">ABOUT US</span>
+                <div class="lines">
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+              <h1 class="mb-2">Welcome to eLEARNING</h1>
+              <p class="mb-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur aliquam voluptate numquam deleniti nesciunt earum?
+              </p>
+              <p class="mb-3">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
+                accusantium commodi molestiae veritatis alias qui harum
+                provident eaque totam officia. Veniam, ducimus! Quo, voluptas
+                repellendus!
+              </p>
+              <div
+                class="mb-3 d-flex flex-row align-items-center justify-content-between"
+              >
+                <div>
+                  <p class="my-0" style="font-size: 15px;">
+                    <strong
+                      ><i class="bi bi-arrow-right mx-2 aboutItems"></i></strong
+                    >Skilled Instructors
+                  </p>
+                  <p class="my-0" style="font-size: 15px;">
+                    <i class="bi bi-arrow-right mx-2 aboutItems"></i
+                    >International Certificate
+                  </p>
+                  <p class="my-0" style="font-size: 15px;">
+                    <i class="bi bi-arrow-right mx-2 aboutItems"></i>Online
+                    Classes
+                  </p>
+                </div>
+                <div>
+                  <p class="my-0" style="font-size: 15px;">
+                    <i class="bi bi-arrow-right mx-2 aboutItems"></i>Skilled
+                    Instructors
+                  </p>
+                  <p class="my-0" style="font-size: 15px;">
+                    <i class="bi bi-arrow-right mx-2 aboutItems"></i
+                    >International Certificate
+                  </p>
+                  <p class="my-0" style="font-size: 15px;">
+                    <i class="bi bi-arrow-right mx-2 aboutItems"></i>Online
+                    Classes
+                  </p>
+                </div>
+              </div>
+              <button
+                class="btn btn-primary p-3 border-0 rounded-0 align-self-start"
+                style="background-color: #05bac9;"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5">
+      <div class="container ">
+        <div class="row">
+          <div class="col-3">
+            <div
+              class="card p-4 gap-2 d-flex flex-column align-items-center justify-content-center"
+            >
+              <h1 class="cardHeader">
+                <i class="bi bi-mortarboard-fill icon"></i>
+              </h1>
+
+              <h3 class="text-center cardTitle">Skilled Instructors</h3>
+
+              <p class="text-center cardDescription">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.Harum,
+                nulla!
+              </p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div
+              class="card p-4 gap-2 d-flex flex-column align-items-center justify-content-center"
+            >
+              <h1 class="cardHeader"><i class="bi bi-globe icon"></i></h1>
+
+              <h3 class="text-center cardTitle">Online classes</h3>
+
+              <p class="text-center cardDescription">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+                nam.
+              </p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div
+              class="card p-4 gap-2 d-flex flex-column align-items-center justify-content-center"
+            >
+              <h1 class="cardHeader">
+                <i class="bi bi-house-door icon"></i>
+              </h1>
+
+              <h3 class="cardTitle">Home Projects</h3>
+              <p class="text-center cardDescription">
+                Lo class="cardDescription"rem, ipsum dolor sit amet consectetur
+                adipisicing elit. Architecto, dicta.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div
+              class="card p-4 gap-2 d-flex flex-column align-items-center justify-content-center"
+            >
+              <h1 class="cardHeader">
+                <i class="bi bi-book icon"></i>
+              </h1>
+
+              <h3 class="cardTitle">Book Library</h3>
+
+              <p class="text-center cardDescription">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+                maxime!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+body {
+  font-family: 'Poppins', sans-serif;
+
+  min-height: 100vh;
+}
+.nav-link:hover {
+  color: #05bac9 !important;
+}
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 20px;
+}
+
+#btnJoinUs {
+  background-color: #05bac9;
+  height: 4.1rem;
+}
+.carousel-item {
+  position: relative;
+}
+.carousel-content {
+  position: absolute;
+  width: 40%;
+  top: 30%;
+  left: 20%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-img {
+  filter: brightness(50%);
+  height: 100vh;
+  object-fit: cover;
+}
+.carousel-inner {
+  position: relative;
+}
+.mask {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background: rgba(114, 95, 172, 0.267);
+}
+.carousel-content .description {
+  flex-wrap: wrap;
+}
+.carousel-content .title {
+  color: #05bac9;
+  text-transform: uppercase;
+}
+.carousel-content .slogan {
+  font-size: 45px;
+}
+.icon {
+  color: #05bac9;
+  font-size: 4rem;
+}
+
+.cardTitle {
+  font-size: 19px;
+  font-weight: 600;
+}
+.card {
+  background-color: #f0fbfc;
+}
+.cardDescription {
+  color: #6c757d;
+}
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.5s;
+  background-color: #05bac9;
+  color: white !important;
+}
+.card:hover .cardDescription {
+  color: white !important;
+  transition: 0.5s;
+}
+.card:hover .icon {
+  color: white !important;
+  transition: 0.5s;
+}
+
+.aboutContent h1 {
+  color: #181d38;
+}
+.aboutContent span {
+  color: #05bac9;
+}
+
+.aboutItems {
+  color: #05bac9;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.lines div {
+  background-color: #05bac9;
+  height: 2px;
+  margin-left: 0.5rem;
+}
+.lines div:first-child {
+  width: 40px;
+  margin-top: 0.4rem;
+}
+.lines div:nth-child(2) {
+  width: 80px;
+  margin-top: 0.4rem;
+}
