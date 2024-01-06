@@ -95,11 +95,15 @@ body {
   transition: 0.5s;
 }
 
-.aboutContent h1 {
+.linesTitle {
   color: #181d38;
 }
 .aboutContent span {
   color: #05bac9;
+}
+
+.aboutContent p {
+  font-size: 15px;
 }
 
 .aboutItems {
@@ -107,16 +111,101 @@ body {
   font-size: 22px;
   font-weight: bolder;
 }
-.lines div {
+.lines div,
+.lines-reversed div {
   background-color: #05bac9;
   height: 2px;
-  margin-left: 0.5rem;
 }
+
 .lines div:first-child {
   width: 40px;
-  margin-top: 0.4rem;
 }
+
 .lines div:nth-child(2) {
   width: 80px;
-  margin-top: 0.4rem;
+  margin-top: 0.8vh;
+}
+
+.lines-reversed div {
+  /* margin-right: 0.5rem; */
+  align-items: center;
+  justify-content: center;
+}
+
+.lines-reversed div:first-child {
+  width: 40px;
+  margin-left: 50%;
+}
+
+.lines-reversed div:nth-child(2) {
+  width: 80px;
+  margin-top: 0.8vh;
+}
+
+.categoriesTitle span {
+  color: #05bac9;
+  font-size: 18px;
+  font-weight: 600;
+}
+.categoriesTitle {
+  flex-direction: column;
+}
+
+.test {
+  background-color: #05bac9;
+  height: 10rem;
+  width: 10rem;
+}
+.cat-image {
+  width: 100%;
+}
+
+.img-scale {
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-scale:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.studentCarouselBtn button:not(.active) {
+  background-color: white !important;
+}
+
+.socialButtonsWrapper a {
+  width: 39px;
+  margin-right: 5px;
+  text-align: center;
+}
+.socialButtonsWrapper a i {
+  text-align: center;
+  font-size: 15px;
+}
+
+.footerItemsLinks {
+  height: fit-content;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerItemsLinks a {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.footerItemsLinks a::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background-color: white;
+  right: -10px;
+}
+
+.footerItemsLinks a:last-child::after {
+  display: none;
 }
